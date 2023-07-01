@@ -2,7 +2,7 @@
 /* ./src/headers/spatialite/gaiaconfig.h.in - manually maintained */
 
 /* Should be defined in order to enable GCP support. */
-#define ENABLE_GCP 1
+/* #undef ENABLE_GCP */
 
 /* Should be defined in order to enable GeoPackage support. */
 #define ENABLE_GEOPACKAGE 1
@@ -14,7 +14,7 @@
 #define ENABLE_MINIZIP 1
 
 /* Should be defined in order to enable RTTOPO support. */
-#define ENABLE_RTTOPO 1
+/* #undef ENABLE_RTTOPO */
 
 /* Should be defined in order to enable GEOS_370 support. */
 #define GEOS_370 1
@@ -56,7 +56,7 @@
 #define PROJ_NEW 1
 
 /* Should contain a text-string describing the intended target CPU */
-#define SPATIALITE_TARGET_CPU "x86_64-redhat-linux"
+#define SPATIALITE_TARGET_CPU "x86_64-linux-gnu"
 
 /* the Version of this package */
 #define SPATIALITE_VERSION "5.0.1"

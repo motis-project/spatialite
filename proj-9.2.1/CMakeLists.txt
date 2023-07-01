@@ -266,7 +266,7 @@ link_directories(${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
 ################################################################################
 include_directories(${PROJ_SOURCE_DIR}/src)
 
-add_subdirectory(data)
+# add_subdirectory(data)
 add_subdirectory(include)
 add_subdirectory(src)
 add_subdirectory(man)

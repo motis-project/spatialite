@@ -1,6 +1,9 @@
 /* ./config.h.  Generated from config.h.in by configure.  */
 /* ./config.h.in - manually maintained */
 
+#undef ENABLE_GCP
+#undef ENABLE_RTTOPO
+
 /* depending on SQLite library version. */
 #define HAVE_DECL_SQLITE_INDEX_CONSTRAINT_LIKE 1
 
@@ -38,7 +41,7 @@
 #define HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the <librttopo.h> header file. */
-#define HAVE_LIBRTTOPO_H 1
+/* #undef HAVE_LIBRTTOPO_H */
 
 /* Define to 1 if you have the `sqlite3' library (-lsqlite3). */
 #define HAVE_LIBSQLITE3 1
@@ -69,7 +72,7 @@
 #define HAVE_MINIZIP_UNZIP_H 1
 
 /* Define to 1 if you have the <proj_api.h> header file. */
-/* #undef HAVE_PROJ_API_H */
+#undef HAVE_PROJ_API_H
 
 /* Define to 1 if you have the <proj.h> header file. */
 #define HAVE_PROJ_H 1

@@ -1,0 +1,4 @@
+[libxml2]
+  commit=884474477284474e0151280aaa275a18e3d7a036
+  url=git@github.com:motis-project/libxml2.git
+  branch=master

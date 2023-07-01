@@ -2,7 +2,7 @@
 /* ./src/headers/spatialite/gaiaconfig-msvc.h.in - manually maintained */
 
 /* Should be defined in order to enable GCP support. */
-#define ENABLE_GCP 1
+/* #undef ENABLE_GCP */
 
 /* Should be defined in order to enable GeoPackage support. */
 #define ENABLE_GEOPACKAGE 1
