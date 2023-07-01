@@ -67,6 +67,9 @@ set(spatialite-src-files
   src/md5/md5.c
   src/md5/gaia_md5.c
 
+  src/shapefiles/shapefiles.c
+  src/shapefiles/validator.c
+
   src/spatialite/mbrcache.c
   src/spatialite/spatialite.c
   src/spatialite/spatialite_init.c
@@ -177,6 +180,6 @@ set(spatialite-src-files
   src/wfs/wfs_in.c
 )
 add_library(spatialite ${spatialite-src-files})
-target_link_libraries(spatialite LibXml2)
+target_link_libraries(spatialite libsqlite3 GEOS::geos_c PROJ::proj)
 target_compile_definitions(spatialite PRIVATE HAVE_CONFIG_H PROJ_NEW)
 target_include_directories(spatialite SYSTEM PUBLIC . src src/headers)

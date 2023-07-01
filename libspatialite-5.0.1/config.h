@@ -20,7 +20,7 @@
 #define HAVE_FLOAT_H 1
 
 /* Define to 1 if you have the <freexl.h> header file. */
-#define HAVE_FREEXL_H 1
+/* #undef HAVE_FREEXL_H */
 
 /* Define to 1 if you have the `ftruncate' function. */
 #define HAVE_FTRUNCATE 1
@@ -35,7 +35,7 @@
 #define HAVE_GETTIMEOFDAY 1
 
 /* Define to 1 if you have the <iconv.h> header file. */
-#define HAVE_ICONV_H 1
+/* #undef HAVE_ICONV_H */
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
@@ -69,7 +69,7 @@
 #define HAVE_MEMSET 1
 
 /* Define to 1 if you have the <minizip/unzip.h> header file. */
-#define HAVE_MINIZIP_UNZIP_H 1
+/* #undef HAVE_MINIZIP_UNZIP_H */
 
 /* Define to 1 if you have the <proj_api.h> header file. */
 /* #undef HAVE_PROJ_API_H */

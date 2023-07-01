@@ -11,7 +11,7 @@
 /* #undef ENABLE_LIBXML2 */
 
 /* Should be defined in order to enable MiniZIP support. */
-#define ENABLE_MINIZIP 1
+/* #undef ENABLE_MINIZIP */
 
 /* Should be defined in order to enable RTTOPO support. */
 /* #undef ENABLE_RTTOPO */
@@ -44,7 +44,7 @@
 #define HAVE_FLOAT_H 1
 
 /* Define to 1 if you have the <freexl.h> header file. */
-#define HAVE_FREEXL_H 1
+/* #undef HAVE_FREEXL_H */
 
 /* Define to 1 if you have the `ftruncate' function. */
 #define HAVE_FTRUNCATE 1
@@ -59,7 +59,7 @@
 #define HAVE_GETTIMEOFDAY 1
 
 /* Define to 1 if you have the <iconv.h> header file. */
-#define HAVE_ICONV_H 1
+/* #undef HAVE_ICONV_H */
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
@@ -93,7 +93,7 @@
 #define HAVE_MEMSET 1
 
 /* Define to 1 if you have the <minizip/unzip.h> header file. */
-#define HAVE_MINIZIP_UNZIP_H 1
+/* #undef HAVE_MINIZIP_UNZIP_H */
 
 /* Define to 1 if you have the <proj_api.h> header file. */
 /* #undef HAVE_PROJ_API_H */
@@ -174,10 +174,10 @@
 #define NDEBUG 1
 
 /* Should be defined in order to disable EPSG full support. */
-/* #undef OMIT_EPSG */
+#define OMIT_EPSG 1
 
 /* Should be defined in order to disable FREEXL support. */
-/* #undef OMIT_FREEXL */
+#define OMIT_FREEXL 1
 
 /* Should be defined in order to disable GEOCALLBACKS support. */
 #define OMIT_GEOCALLBACKS 1
@@ -186,7 +186,7 @@
 /* #undef OMIT_GEOS */
 
 /* Should be defined in order to disable ICONV support. */
-/* #undef OMIT_ICONV */
+#define OMIT_ICONV 1
 
 /* Should be defined in order to disable KNN support. */
 /* #undef OMIT_KNN */

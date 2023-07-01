@@ -26,10 +26,10 @@
 #define GEOS_REENTRANT 1
 
 /* Should be defined in order to disable EPSG full support. */
-/* #undef OMIT_EPSG */
+#define OMIT_EPSG 1
 
 /* Should be defined in order to disable FREEXL support. */
-/* #undef OMIT_FREEXL */
+#define OMIT_FREEXL 1
 
 /* Should be defined in order to disable GEOCALLBACKS support. */
 #define OMIT_GEOCALLBACKS 1
@@ -38,7 +38,7 @@
 /* #undef OMIT_GEOS */
 
 /* Should be defined in order to disable ICONV support. */
-/* #undef OMIT_ICONV */
+#define OMIT_ICONV 1
 
 /* Should be defined in order to disable KNN support. */
 /* #undef OMIT_KNN */
