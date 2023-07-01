@@ -72,7 +72,7 @@
 #define HAVE_MINIZIP_UNZIP_H 1
 
 /* Define to 1 if you have the <proj_api.h> header file. */
-#undef HAVE_PROJ_API_H
+/* #undef HAVE_PROJ_API_H */
 
 /* Define to 1 if you have the <proj.h> header file. */
 #define HAVE_PROJ_H 1
