@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(SpatiaLite)
 
+include(cmake/pkg.cmake)
 add_subdirectory(sqlite3)
 add_subdirectory(geos-3.11.2)
 add_subdirectory(proj-9.2.1)

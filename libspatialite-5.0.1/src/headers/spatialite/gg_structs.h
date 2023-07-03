@@ -57,6 +57,7 @@ the terms of any one of the MPL, the GPL or the LGPL.
 
 #include <sys/types.h>
 #include <stdint.h>
+#include "sqlite3.h"
 
 #ifdef __cplusplus
 extern "C"

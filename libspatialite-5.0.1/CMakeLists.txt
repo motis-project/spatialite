@@ -180,6 +180,9 @@ set(spatialite-src-files
   src/wfs/wfs_in.c
 )
 add_library(spatialite ${spatialite-src-files})
-target_link_libraries(spatialite libsqlite3 GEOS::geos_c PROJ::proj)
+target_link_libraries(spatialite libsqlite3 GEOS::geos_c PROJ::proj zlibstatic)
 target_compile_definitions(spatialite PRIVATE HAVE_CONFIG_H PROJ_NEW)
 target_include_directories(spatialite SYSTEM PUBLIC . src src/headers)
+if (MSVC)
+    target_compile_definitions(spatialite PRIVATE YY_NO_UNISTD_H)
+endif()
